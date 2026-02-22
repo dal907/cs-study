@@ -2,3 +2,13 @@
 *.exe
 node_modules/
 __pycache__/
+
+# C언어 빌드 결과물 전부 무시
+*.exe
+*.o
+*.obj
+*.out
+
+# 파이썬 임시 파일 무시
+__pycache__/
+*.pyc
